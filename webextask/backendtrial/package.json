@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "@100xdevs/medium-common": "^1.0.0",
+    "@prisma/client": "^5.14.0",
+    "@prisma/extension-accelerate": "^1.1.0",
+    "@types/argon2": "^0.15.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/password-hash": "^1.2.24",
+    "argon2": "^0.40.3",
+    "bcrypt": "^5.1.1",
+    "hono": "^4.4.0",
+    "password-hash": "^1.2.2",
+    "prisma": "^5.14.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240403.0",
+    "esbuild": "^0.21.4",
+    "wrangler": "^3.47.0"
+  }
+}
